@@ -1,0 +1,39 @@
+.info-btn {
+    border-radius: 50px;
+    background: linear-gradient(to right, var(--skyblue), purple);
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.info-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.info-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.info-btn:hover span {
+    padding-right: 25px;
+}
+
+.info-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}

@@ -1,0 +1,361 @@
+:root {
+    --choco: #5f4a4f;
+    --lightchoco: #a495a2;
+    --lightgreen: #b4d6ad;
+    --midgreen: #5d8d5d;
+    --darkgreen: #5d8d5d;
+    --skyblue: #5dc8ea;
+    --adscolor: #1a054f;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    height: 540px;
+    /* border-radius: 0px 0px 300px 0px; */
+    background: linear-gradient(to right, blue, cyan);
+}
+
+.container2 {
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    border-radius: 0px 0px 250px 0px;
+    background-color: #1a054f;
+}
+
+.headItems {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 50px;
+    /* text-align: center; */
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.logo {
+    background-color: transparent;
+    text-align: center;
+    width: 10%;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.cont {}
+
+.menu {
+    background-color: var(--choco);
+    text-align: center;
+    width: 40%;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.menu-conts {
+    margin: 8px;
+}
+
+.container .menu .menu-items li {
+    list-style: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 3px 15px 3px 15px;
+    transition: 1s;
+    /* background-color: #b4d6ad; */
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    /*  */
+}
+
+.container .menu .menu-items li:hover {
+    border-radius: 50px;
+    background-color: black;
+}
+
+.logo-img {
+    width: 115px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 30px;
+}
+
+.body-part {
+    display: flex;
+    justify-content: center;
+    /* height: 300px; */
+    background-color: transparent;
+}
+
+.ads {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    width: 1200px;
+    height: 400px;
+    background-color: transparent;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ads-inside {
+    justify-content: center;
+}
+
+.container .body-part .ads .text-info h1 {
+    margin-top: 70px;
+}
+
+
+/* .container .body-part .ads .text-info button {
+    margin-top: 50px;
+    width: 250px;
+    padding: 15px;
+    background-color: transparent;
+    transition: 1s;
+    color: white;
+    border: 1px solid var(--skyblue);
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .body-part .ads .text-info button:hover {
+    background-color: var(--skyblue);
+    color: black;
+} */
+
+.ad-img {}
+
+.container .body-part .ad-img img {
+    height: 90%;
+}
+
+.info-text {
+    margin-top: 20px;
+}
+
+.container3 .services h1 {
+    padding-top: 15px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.text-n {
+    display: flex;
+}
+
+.h2-n {
+    margin-left: 10px;
+    margin-top: 76px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container3 {
+    text-align: center;
+    background: linear-gradient(to right, rgb(201, 238, 238), white, rgb(201, 238, 238));
+    height: 400px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 20px;
+    /* background: linear-gradient(to right, blue, cyan); */
+    border-radius: 50px;
+}
+
+
+/* .card {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(201, 238, 238), white, rgb(201, 238, 238));
+    /* padding: 30px; */
+
+
+/* background: linear-gradient(to right, white, rgb(201, 238, 238)); */
+
+
+/* } */
+
+.card-n {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    /* margin: 30px; */
+    border-radius: 50px 50px 50px 50px;
+}
+
+
+/* .card1,
+.card2,
+.card3 { */
+
+
+/* height: 50px;
+    width: 200px; */
+
+
+/* padding: 50px;
+    margin: 50px; */
+
+
+/* border-radius: 50px 50px 0 0;
+    background-color: blueviolet;
+} */
+
+.container3 .card .card-n img {
+    width: 150px;
+    padding: 10px;
+    margin-right: 80px;
+    margin-left: 80px;
+    /* border-radius: ; */
+    /* background-color: chartreuse; */
+}
+
+
+/*body 2nd part*/
+
+.imgs {
+    height: 21vw;
+}
+
+.main2 {}
+
+.main-nd {
+    /* color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+    text-underline-position: under; */
+    /* text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-position: under;
+    color: #252839;
+    font-size: 5vh;*/
+    padding-top: 3vw;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card1,
+.card2,
+.card3 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    height: 8vw;
+}
+
+.main2 .cards img {
+    box-shadow: 3px 3px 3px 3px gray;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.main2 .cards img:hover {
+    box-shadow: 2px 2px 2px 2px rgb(255, 255, 255);
+    width: 200px;
+    border-radius: 20px;
+}
+
+.main2 .cards p {
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-rd {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-position: under;
+    color: #252839;
+    font-size: 5vh;
+    padding-top: 110px;
+}
+
+.blog-ds {
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.website,
+.android,
+.hacking {
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+.web-head {
+    width: 30vh;
+}
+
+.web-info {
+    width: 50vh;
+}
+
+.main-th {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-position: under;
+    color: #252839;
+    font-size: 5vh;
+    padding-top: 0px;
+}
+
+
+/*body 2nd part*/
+
+.footer {
+    margin-top: 150px;
+}
+
+
+/*  */
+
+.in2-footer {
+    background-color: var(--adscolor);
+    padding: 30px;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px, 50px, 50px, 50px;
+}
